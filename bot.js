@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-console.log("3bker");
-var prefix = ".";
+console.log("Brodcast");
+var prefix = "$";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "la")) {
@@ -18,12 +18,12 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : darkxx`);
+      console.log(`Prefix : `);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : black ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Brodcast ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!bc |mahmod AR |server`,"http://twitch.tv/Death Shop")
+client.user.setGame(`$bc |Mira |Brodcast`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
