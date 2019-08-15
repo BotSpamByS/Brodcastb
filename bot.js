@@ -18,7 +18,7 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Prefix : `);
+      console.log(`$`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Brodcast ' `);
     console.log(`----------------`);
