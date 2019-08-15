@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-console.log("Brodcast");
+console.log("3bker");
 var prefix = "$";
 client.on("message", message => {
 
